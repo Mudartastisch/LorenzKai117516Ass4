@@ -151,7 +151,7 @@ public class DivideAndConquer {
 	public static void main(String[] args) {
 		//big block for input handling and error prevention
 		if(args.length < 2) {
-			System.out.println("Your call was invalid: programm [int NumberOfItems] [int RadomNumberRangeMax]");
+			System.out.println("Your call was invalid: programm [int NumberOfPoints] [int RadomNumberRangeMax]");
 		}
 		try
 	    {
@@ -159,7 +159,7 @@ public class DivideAndConquer {
 	        Integer.parseInt(args[1]);
 	    } catch (NumberFormatException ex)
 	    {
-	        System.out.println("Your call was invalid: programm [int NumberOfItems] [int RadomNumberRangeMax]");
+	        System.out.println("Your call was invalid: programm [int NumberOfPoints] [int RadomNumberRangeMax]");
 	    }
 		
 		
